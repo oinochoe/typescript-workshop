@@ -1,8 +1,8 @@
 var StarbuksGrade;
 (function (StarbuksGrade) {
-    StarbuksGrade['WELCOME'] = 'WELCOME';
-    StarbuksGrade['GREEN'] = 'GREEN';
-    StarbuksGrade['GOLD'] = 'GOLD';
+    StarbuksGrade["WELCOME"] = "WELCOME";
+    StarbuksGrade["GREEN"] = "GREEN";
+    StarbuksGrade["GOLD"] = "GOLD";
 })(StarbuksGrade || (StarbuksGrade = {}));
 function getDiscount(v) {
     switch (v) {
