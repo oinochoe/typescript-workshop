@@ -8,7 +8,7 @@ function outer() {
         }, 100);
     }
 
-    console.log(score);
+    //console.log(score);
 }
 
 outer();

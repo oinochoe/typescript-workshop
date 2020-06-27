@@ -7,7 +7,6 @@ function outer() {
             console.log(i);
         }, 100);
     }
-    console.log(score);
 }
 outer();
 //# sourceMappingURL=variables.js.map
