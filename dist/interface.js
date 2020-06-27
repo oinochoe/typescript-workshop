@@ -2,7 +2,8 @@ const myTV = {
     turnOn() {
         return true;
     },
-    turnOff() {},
+    turnOff() {
+    },
 };
 function tryTurnOn(tv) {
     tv.turnOn();
