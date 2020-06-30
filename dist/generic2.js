@@ -1,3 +1,11 @@
+class D {
+    add(v) {
+        throw new Error('Method not implemented.');
+    }
+    get() {
+        throw new Error('Method not implemented.');
+    }
+}
 class LocalDB {
     constructor(localStorageKey) {
         this.localStorageKey = localStorageKey;
@@ -10,8 +18,12 @@ class LocalDB {
         return v ? JSON.parse(v) : null;
     }
 }
-const userDb = new LocalDB('user');
-userDb.add({ name: 'jay' });
-const userA = userDb.get();
-
+const cart1 = {
+    getItem() {
+        return {
+            m: 'hi',
+        };
+    },
+};
+console.log(cart1.getItem().m);
 //# sourceMappingURL=generic2.js.map
