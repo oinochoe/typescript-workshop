@@ -1,6 +1,6 @@
 function createUserAction2() {
     return {
-        do() {},
+        do() { },
         name: '',
     };
 }
@@ -12,7 +12,8 @@ class UserImpl {
 function checkUser(user) {
     if (user.login()) {
         return 'APPROVED';
-    } else {
+    }
+    else {
         return 'REJECTED';
     }
 }
